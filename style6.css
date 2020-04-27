@@ -1,0 +1,65 @@
+body
+{
+    margin: 0 !important;
+    background-color: #432371;
+    font-family: 'Manrope', sans-serif;
+}
+
+#zegar
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 8vw;
+    width: 100%;
+    padding-top: 4vw;
+    font-weight: 800;
+}
+
+a
+{
+    color: #cc8b79;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+#button
+{
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 8px;
+    font-size: 12pt;
+}
+
+
+@media(max-width:1300px)
+{
+
+    #zegar
+    {
+        margin-top: 24vh;
+    }
+
+}
+
+@media(max-width:600px)
+{
+
+    #zegar
+    {
+        margin-top: 36vh;
+    }
+
+}
+
+#date
+{
+    color: #714674;
+}
+
+#clock
+{
+    color: #9f6976;
+}
