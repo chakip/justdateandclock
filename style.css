@@ -40,12 +40,79 @@ a
     font-size: 12pt;
 }
 
+.square
+{
+    width: 3.5vw;
+    height: 3.5vw;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    transition: transform .3s ease-out;
+}
+
+.square:hover
+{
+    transform: scale(1.5);
+}
+
+.square:last-child
+{
+    margin-left: 0;
+}
+
+#colors
+{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media(max-width:1300px)
 {
 
     #zegar
     {
         margin-top: 24vh;
+    }
+
+    #center
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .square
+    {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+}
+
+@media(max-width:750px)
+{
+
+    .mobile
+    {
+        clear: both;
+        margin-bottom: 10px;
+    }
+
+    #center
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .square
+    {
+        width: 12vw;
+        height: 12vw;
+    }
+    
+    #clock, #zegar
+    {
+        font-size: 14vw;
     }
 
 }
@@ -58,6 +125,30 @@ a
         margin-top: 36vh;
     }
 
+    .square
+    {
+        width: 70px;
+        height: 70px;
+    }
+
+    .mobile
+    {
+        clear: none;
+        margin-bottom: 0;
+    }
+
+    .mobile2
+    {
+        clear: both;
+        margin-bottom: 10px;
+    }
+
+    .square
+    {
+        width: 16vw;
+        height: 16vw;
+    }
+    
 }
 
 #date
