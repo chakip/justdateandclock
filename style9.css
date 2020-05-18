@@ -69,6 +69,12 @@ a
     margin-right: auto;
 }
 
+#PrzyciskPokaz_2, #PrzyciskUkryj_2
+{
+    text-align: center;
+    color: black;
+}
+
 @media(max-width:1300px)
 {
 
